@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Clon</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="xxx">
+        <div id="tittle">
+            <h1 id="ntflx">NET<span>FLİX</span></h1>
+            <h3 id="two-tittle">Thank you for signing up at Netflix.Tell us more about yourself.</h3>
+        </div>
+        <div class="general">
+            <form action="/netflix" method="get" id="watch">
+                <div class="tema">
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name">
+                </div>
+
+                <br>
+                <div class="tema">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="Age">
+                </div>
+                <br>
+                <div class="tema">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="example@netflix.com">
+                </div>
+
+                <br>
+                <div class="tema">
+                    <label for="content-select">Content Type</label>
+                    <select name="content-type" id="con-type">
+                        <option value="movie">Movie</option>
+                        <option value="series">series</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <div class="writing">
+            <p class="movie-type">Movie type</p>
+            <form action="/netflix" method="get" id="personal">
+                <div class="writing">
+                    <input type="checkbox" id="type">
+                    <label for="type">Comedy</label>
+
+                </div>
+
+                <div class="writing">
+                    <input type="checkbox" id="action">
+                    <label for="action">Action</label>
+
+                </div>
+                <div class="writing">
+                    <input type="checkbox" id="romance">
+                    <label for="romance">Romance</label>
+
+                </div>
+            </form>
+        </div>
+
+        <div class="writing">
+            <p class="movie-type">Gender</p>
+            <form action="/netflix" method="get" id="personal">
+                <div class="writing">
+                    <input type="radio" id="male">
+                    <label for="male">Male</label>
+
+                </div>
+
+                <div class="writing">
+                    <input type="radio" id="female">
+                    <label for="female">Female</label>
+
+                </div>
+                <div class="writing">
+                    <input type="radio" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </form>
+        </div>
+        <div id="align-center">
+
+            <label for="feedback">Feedback</label>
+            <br>
+            <textarea name="feedback" id="feedback" placeholder="Enter Your Comment" cols="57" rows="7"></textarea>
+        </div>
+
+    </div>
+
+    <button class="">Send</button>
+    </div>
+
+</body>
+
+</html>

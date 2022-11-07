@@ -1,0 +1,163 @@
+/* BODY */
+
+body {
+    margin: 0;
+    font-family: system-ui;
+    text-align: center;
+    color: #fff;
+    background-image: url("./netflix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+
+#ntflx {
+    text-align: center;
+    font-size: 60px;
+    font-family: Impact, sans-serif;
+    padding-top: 10px;
+    letter-spacing: 6px;
+    color: #ff0000;
+    font-weight: 800 px;
+}
+
+span {
+    color: #fff;
+}
+
+#two-tittle {
+    text-align: center;
+    color: #fff;
+    font-family: serif;
+    font-size: 30px
+}
+
+/* BODY */
+
+#con-type {
+    height: 60px;
+    width: 524px;
+
+}
+
+.movie-type {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    width: 500px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.gender {
+    font-size: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#watch {
+    width: 500px;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    margin: auto;
+    padding-top: 30px;
+}
+
+#personal {
+    width: 500px;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    margin: auto;
+    padding-top: 10px;
+}
+
+#feed-b {
+    width: 500px;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footer {
+    width: 500px;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+#feedback {
+    line-height: 20px;
+    /* margin-top: 20px; */
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 2em;
+    border-style: hidden;
+    background-color: #ff0000;
+    color: #fff;
+    margin: 10px 0 10px;
+    cursor: pointer;
+    font-size: x-large;
+    height: 70px;
+    width: 200px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.tema>input,
+.tema>select {
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.tema {
+    display: flex;
+    flex-direction: column;
+}
+
+.tema>label {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.writing {
+    width: 100%;
+    text-align: left;
+}
+
+#align-center {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+
+}
+
+#align-center>label {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 524px;
+}
